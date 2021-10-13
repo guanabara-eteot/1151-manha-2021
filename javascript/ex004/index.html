@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descontão</title>
+</head>
+<body>
+    <h1>Calculadora de Desconto</h1>
+    <button onclick="desconto()">Abrir calculadora</button>
+    <script>
+        function desconto() {
+            let preco = Number(prompt("Qual é o preço do produto?"))
+            document.writeln(`<h1>Preço original: R$${preco}</h1>`)
+            let porc = 10
+            let reduc
+            while (porc <= 90) {
+                reduc = (preco * porc)/100
+                document.write(`O produto com ${porc}% de desconto vai custar R$${preco-reduc}<br>`)
+                porc += 10
+            }
+        }
+    </script>
+</body>
+</html>
