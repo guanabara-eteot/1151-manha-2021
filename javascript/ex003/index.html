@@ -12,12 +12,14 @@
     <script>
         function tabuada() {
             let num = Number(prompt("Tabuada de qual número?"))
-            let cont = 1
             document.writeln(`<h1>Tabuada de ${num}</h1>`)
+
+            let cont = 0
             while (cont <= 10) {
                 document.writeln(`${num} x ${cont} = ${num*cont}<br>`)
                 cont++
             }
+            
         }
     </script>
 </body>
