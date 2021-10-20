@@ -5,28 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repetições</title>
-    <style>
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background-color: darkgoldenrod;
-        }
-
-        main {
-            width: 500px;
-            margin: auto;
-        }
-
-        section {
-            background-color: white;
-            padding: 10px;
-            margin: 10px;
-            border-radius: 10px;
-        }
-
-        section#resultado {
-            visibility: hidden;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -45,27 +24,9 @@
         <section id="resultado">
             <h2>Resultado</h2>
             <p id="contagem"></p>
+            <button onclick="fechar()">Fechar</button>
         </section>
     </main>
-    <script>
-        function contador() { 
-            let ini = Number(document.getElementById("ini").value)
-            let fim = Number(document.getElementById("fim").value)
-            let inc = Number(document.getElementById("inc").value)
-
-            let res = document.getElementById("resultado")
-            let saida = document.getElementById("contagem")
-            res.style.visibility = "visible"
-
-            let c = ini
-            saida.innerHTML = ``
-            while (c <= fim) {
-                saida.innerHTML += `${c} &#x1F449; `
-                c += inc
-            }
-            saida.innerHTML += `&#x1F3C1;`
-            return false
-        }
-    </script>
+    <script src="funcionalidades.js"></script>
 </body>
 </html>
