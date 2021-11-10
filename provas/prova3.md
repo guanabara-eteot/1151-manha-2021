@@ -6,7 +6,7 @@ O último trabalho será realizado individualmente e a entrega será feita diret
 ## Exercício 01: 
 
 * Construir um site para calcular o financiamento de um carro
-A página começa com um formulário perguntando o modelo do carro, o seu preço total e a quantidade de parcelas para pagar (que vai de 0 parcelas até 36 parcelas)
+* A página começa com um formulário perguntando o modelo do carro, o seu preço total e a quantidade de parcelas para pagar (que vai de 0 parcelas até 36 parcelas)
 * Ao informar todos os dados acima, o programa vai fazer o cálculo do valor da parcela, sabendo que existem juros para quem vai parcelar em muitas vezes, seguindo as regras abaixo:
 * Escolher de 0 a 4 parcelas: não existem juros. Basta pegar o preço total do carro e dividir em partes iguais
     * De 5 a 12 parcelas: juros de 25%. O valor do carro vai aumentar 25% e esse novo valor vai ser dividido em partes iguais
