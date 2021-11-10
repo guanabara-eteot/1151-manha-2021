@@ -1,7 +1,7 @@
 # Trabalhos de HTML5, CSS3 e JavaScript
 
 
-O último trabalho será realizado individualmente e a entrega será feita diretamente com o link de um repositório no GitHub para cada aluno. Os trabalhos são sempre individuais e cada aluno deverá fazer o seu! 
+O último trabalho será realizado individualmente e a entrega será feita diretamente com o **link de um repositório no GitHub** para cada aluno. Os trabalhos são sempre individuais e **cada aluno deverá fazer o seu**! 
 
 ## Exercício 01
 
@@ -25,10 +25,10 @@ O último trabalho será realizado individualmente e a entrega será feita diret
     * Qual foi o menor salário pago.
 
 ## Como entregar?
-* Criar um repositório público chamado terceira-prova no seu perfil do GitHub
-* Habilitar o GitHub Pages para o repositório público criado no passo anterior
-* Colocar os códigos do ex001 e ex002 da prova dentro do repositório remoto
-* Enviar o link do seu repositório e seu nome completo para o e-mail guanabara@eteot.rio.br
-* O prazo de entrega é 24/Novembro/2021
+* Criar um **repositório público** chamado **terceira-prova** no seu perfil do GitHub
+* Habilitar o **GitHub Pages** para o repositório público criado no passo anterior
+* Colocar os códigos do **ex01** e **ex02** da prova dentro do repositório remoto
+* Enviar o link do seu repositório e seu nome completo para o e-mail **guanabara@eteot.rio.br**
+* O prazo de entrega é **24/Novembro/2021**
 
 Bons trabalhos a todos!
