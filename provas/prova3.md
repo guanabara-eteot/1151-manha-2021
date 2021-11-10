@@ -3,7 +3,7 @@
 
 O último trabalho será realizado individualmente e a entrega será feita diretamente com o link de um repositório no GitHub para cada aluno. Os trabalhos são sempre individuais e cada aluno deverá fazer o seu! 
 
-## Exercício 01: 
+## Exercício 01
 
 * Construir um site para calcular o financiamento de um carro
 * A página começa com um formulário perguntando o modelo do carro, o seu preço total e a quantidade de parcelas para pagar (que vai de 0 parcelas até 36 parcelas)
@@ -14,7 +14,7 @@ O último trabalho será realizado individualmente e a entrega será feita diret
     * Mais de 24 parcelas: juros de 80%
 * O programa vai calcular e mostrar qual será o valor total do carro e também vai mostrar quanto o cliente vai pagar por cada parcela.
 
-## Exercício 02: 
+## Exercício 02
 * Construir um site para processamento de salários de funcionários
 * A página começa com um formulário HTML perguntando quantos funcionários serão cadastrados, seguido de um botão Iniciar que vai começar o processo de cadastro.
 * Após clicar no botão, o programa vai perguntar o salário de cada um dos funcionários através de prompt(), um a um, até chegar ao total de funcionários definidos no passo anterior.
